@@ -20,6 +20,12 @@ Inside Claude Code, two lines:
 /plugin install galsas@vibeset
 ```
 
+With any other agent, through the [skills.sh](https://skills.sh) registry:
+
+```bash
+npx skills add Mun1to/Galsas
+```
+
 <details>
 <summary>Prefer to install it by hand?</summary>
 
