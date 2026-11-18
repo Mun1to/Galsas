@@ -7,13 +7,14 @@ El Reglamento (UE) 2024/1689 tiene más de cien artículos y **casi todos son pa
 entrena modelos grandes o para quien construye sistemas que deciden sobre la vida de la gente. Si el
 producto conversa o genera contenido, **el artículo que aplica es el 50**, y son dos páginas.
 
-**Está en vigor desde el 2 de agosto de 2026.** Hay periodo de gracia hasta el **2 de diciembre de
+**Es aplicable desde el 2 de agosto de 2026.** Hay periodo de gracia hasta el **2 de diciembre de
 2026**, y solo para una cosa: la obligación de marcado del art. 50.2 en sistemas que ya estaban en
 el mercado antes del 2 de agosto. Todo lo demás es exigible ya.
 
-⚠️ **Dato que hay que comprobar en cada auditoría:** el *Digital Omnibus* sobre IA entró en vigor el
-27 de julio de 2026 y **modificó el artículo 50**. El AI Act Service Desk de la Comisión avisa en su
-propia página de que el texto que muestra todavía no refleja esas enmiendas. Lee la **versión
+⚠️ **Dato que hay que comprobar en cada auditoría:** el *Digital Omnibus* sobre IA (Reglamento (UE)
+2026/1744) entró en vigor el 27 de julio de 2026, **modificó el apartado 7 del artículo 50** y añadió
+ese periodo de gracia en el art. 111.4. El AI Act Service Desk de la Comisión ya muestra el texto
+consolidado a 27 de julio de 2026 y marca los cambios como NEW y AMENDED. Aun así, lee la **versión
 consolidada en EUR-Lex** antes de dar por buena cualquier redacción, incluida esta.
 
 ## Primero: ¿proveedor o responsable del despliegue?
@@ -25,9 +26,10 @@ Cambia lo que toca hacer, así que se decide antes de nada.
 | **Proveedor** | Desarrolla el sistema y lo pone en el mercado bajo su nombre o marca | Párrafos **1 y 2**: avisar de que es una IA, y marcar la salida generada |
 | **Responsable del despliegue** | Usa el sistema bajo su propia autoridad, en su producto o negocio | Párrafos **3 y 4**: informar en biometría, y revelar ultrafalsos y textos de interés público |
 
-Construir sobre la API de otro **no te convierte automáticamente en proveedor**, pero tampoco te
-libra: puedes ser las dos cosas según el caso. La Comisión publicó directrices sobre transparencia
-que explican quién es quién; se miran antes de concluir.
+Construir sobre la API de otro **no te libra**: si ofreces la aplicación bajo tu nombre o marca, eres
+proveedor de ese sistema aunque el modelo sea ajeno (directrices de la Comisión, apartado 11), y
+puedes ser las dos cosas a la vez (apartado 15). Las directrices explican quién es quién; se miran
+antes de concluir.
 
 ## Las reglas rápidas
 
@@ -83,10 +85,11 @@ Esto no interpreta ninguna ley: es ingeniería, y es lo que hace que cumplir sal
 1. **Un solo punto de salida.** Todo el contenido generado sale por una única función. Ahí se
    enchufa después la firma, la marca de agua o el registro sin tocar el resto del producto.
 2. **El aviso de IA, dentro del componente**, no en los términos ni en el pie de página.
-3. **Dos capas de marcado cuando se genere contenido publicable:** una etiqueta que ve una persona y
-   una marca que lee una máquina. Los metadatos solos no bastan, y no por interpretación legal sino
-   por un hecho técnico: **las redes sociales los borran al subir el archivo**. El propio Código de
-   Buenas Prácticas de la UE ya lo dice.
+3. **Dos capas legibles por máquina cuando se genere contenido publicable:** metadatos firmados y
+   marca de agua imperceptible. Es lo que pide a sus firmantes el Código de Buenas Prácticas de la UE
+   (medida 1.1), que es voluntario; el texto libre, que no admite metadatos, lleva solo la marca de
+   agua, salvo el muy breve. La **etiqueta que ve una persona** es otra obligación (art. 50.4) y no
+   cuenta como capa.
 4. **Registro de qué modelo generó qué y cuándo.** Modelo, versión, marca de tiempo.
 5. **Si el producto despliega agentes que actúan solos:** identidad propia por agente en vez de una
    credencial compartida, y registro de quién autorizó qué. Hoy no lo obliga nadie en la UE, pero un
@@ -96,21 +99,25 @@ Esto no interpreta ninguna ley: es ingeniería, y es lo que hace que cumplir sal
 ## Firmar con C2PA, en la práctica
 
 - La herramienta es **`c2patool`**, de línea de comandos. Photoshop y Lightroom lo llevan de serie.
-- **Hay capa gratuita**: SSL.com anuncia un certificado de firma de nivel 1 válido un año y 10.000
-  sellos de tiempo anuales, exigiendo un ID de registro de conformidad C2PA. El precio del nivel de
-  pago no lo publican, así que **cualquier cifra concreta que leas por ahí es un bulo hasta que la
-  veas en su web**.
+- **Hay capa gratuita**: la página de producto de SSL.com anuncia un certificado de firma de nivel 1
+  válido un año y 2.500 sellos de tiempo anuales, exigiendo un ID de registro de conformidad C2PA. Su
+  plan Premium publica 500 dólares por certificado de nivel 1, con 10.000 sellos al año. Un artículo
+  del mismo proveedor aún da 10.000 sellos para el plan gratuito, así que **confirma la cifra en su
+  página de producto antes de citarla**.
 - La lista de confianza provisional **se congeló el 1 de enero de 2026**: lo firmado con la vieja
   puede no validar.
 - ⚠️ Los validadores, `c2patool` incluido, **no comprueban revocación por defecto**.
 
-Un manifiesto C2PA útil lleva: acción `c2pa.ai.generated`, modelo y versión, certificado de la
-organización, sello de tiempo RFC-3161 y hash del contenido.
+Un manifiesto C2PA útil lleva: acción `c2pa.created` con `digitalSourceType` igual a
+`http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia`, modelo y versión,
+certificado de la organización, sello de tiempo RFC-3161 y hash del contenido.
 
-**Lo caro se puede aparcar con criterio.** El marcado invisible en la señal (píxeles, ondas, patrones
-en el texto) y la batería de pruebas de robustez son proyecto de meses. La regla razonable: la firma
-y la etiqueta visible se hacen ya porque son baratas; el *watermarking* invisible se abre cuando haya
-usuarios europeos reales.
+**Lo caro no se puede aparcar a ciegas.** El marcado invisible en la señal (píxeles, ondas, patrones
+en el texto) y la batería de pruebas de robustez son proyecto de meses, pero el art. 50.2 **no depende
+del número de usuarios**: se aplica desde el 2 de agosto de 2026, o desde el 2 de diciembre de 2026 en
+sistemas ya comercializados antes. Quien no firme el Código tiene que demostrar el cumplimiento por
+otros medios adecuados. Se puede usar el marcado del modelo de origen o de un tercero si cumple el
+art. 50.2, pero demostrarlo sigue siendo responsabilidad del proveedor del sistema.
 
 ## Si el producto vende a Estados Unidos
 
@@ -124,9 +131,11 @@ estrecho y nombra un perfil concreto del marco.
 1. "La Ley de Accesibilidad obliga a que cualquier web sea accesible." Cubre una lista cerrada.
 2. "Cualquier chatbot cae bajo la SB 243 de California." Su texto excluye expresamente los bots de
    atención al cliente, las funciones de videojuego y los asistentes de voz independientes.
-3. "Un certificado C2PA cuesta 289 dólares." El proveedor no publica ese precio.
-4. "El Digital Omnibus retrasó el artículo 50." Retrasó el **alto riesgo**; el 50 aplica desde el 2
-   de agosto de 2026, aunque sí lo modificó (ver el aviso de arriba).
+3. "Un certificado C2PA cuesta 289 dólares." SSL.com publica 500 dólares por certificado de nivel 1
+   en su plan Premium.
+4. "El Digital Omnibus retrasó todo el artículo 50." Solo dio hasta el **2 de diciembre de 2026** para
+   el marcado del art. 50.2 en sistemas comercializados antes del 2 de agosto de 2026 (art. 111.4). El
+   resto del 50 aplica desde el 2 de agosto de 2026. Lo que retrasó de verdad fue el **alto riesgo**.
 
 **De los bulos que circulan, la inmensa mayoría hacen la ley MÁS amplia de lo que es.** Ese es el
 sesgo del sector: los resúmenes exageran para asustar. Por eso aquí se prefiere quedarse corto y

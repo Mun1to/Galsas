@@ -35,9 +35,9 @@ pregunte a quien sabe.
 3. **Distingue ley en vigor de proyecto de ley.** Es el error más repetido del sector. Si algo está
    en tramitación, se escribe "todavía no es ley" y se dice desde cuándo lo sería.
 4. **Los resúmenes de internet exageran, y casi siempre hacia arriba.** Dos ejemplos reales y
-   comprobables: las multas de la LSSI que circulan por todas partes (300.000 y 3.000.000 €) vienen
-   de un decreto **derogado**, y la Ley Europea de Accesibilidad **no** obliga a que cualquier web
-   sea accesible. Ante una cifra redonda y alarmante, sospecha y ve al texto.
+   comprobables: las multas de la LSSI que circulan por todas partes (300.000 y 3.000.000 €) **no
+   están en el art. 39 de la ley**, y la Ley Europea de Accesibilidad **no** obliga a que cualquier
+   web sea accesible. Ante una cifra redonda y alarmante, sospecha y ve al texto.
 5. **Nada de citas entrecomilladas inventadas.** Si no has abierto el texto, parafrasea y enlaza.
    Una cita falsa en un documento legal es peor que no citar.
 6. **Fecha real, del sistema.** Antes de escribir el informe consulta la fecha (`Get-Date` en

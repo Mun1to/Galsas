@@ -1,7 +1,7 @@
 {
   "name": "galsas",
   "description": "Audits a repository for legal exposure (AI Act marking, dependency licences, GDPR and cookies, consumer sales) and writes a LEGAL.md with the fix for each finding.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Mun1to",
     "url": "https://github.com/Mun1to"

@@ -57,21 +57,44 @@ que se comunica el desistimiento, por el mismo medio de pago (art. 107.1).
 correo de confirmación. Ojo con la numeración, que casi todas las plantillas tienen mal: hoy es el
 **Anexo I, letras A y B** del TRLGDCU, no "Anexo A / Anexo B".
 
+### El botón de desistimiento online: art. 11 bis de la Directiva 2011/83/UE
+
+Lo añadió la [Directiva (UE) 2023/2673](https://www.boe.es/buscar/doc.php?id=DOUE-L-2023-81696) y es
+aplicable desde el **19 de junio de 2026**. En los contratos celebrados por una interfaz en línea pide:
+
+- Una **función de desistimiento** etiquetada "desistir del contrato aquí" o con una fórmula
+  inequívoca equivalente, disponible durante todo el plazo de desistimiento.
+- Una **función de confirmación** etiquetada "confirmar desistimiento" o equivalente.
+- Un **acuse de recibo en soporte duradero**, sin demora indebida, con el contenido del desistimiento
+  y la fecha y hora en que se presentó.
+
+> ⚠️ **España todavía no lo ha transpuesto.** A 18 de noviembre de 2026, el TRLGDCU consolidado no
+> recoge esta función. **Qué efecto tiene hoy frente a un vendedor español es pregunta para un
+> abogado:** en el informe va como VIGILA, con "Abogado: sí".
+
 ### El caso del software y el contenido digital
 
-El art. 103 recoge las excepciones, y la que toca al software descargable o al servicio digital es la
-que se refiere al **contenido digital no prestado en soporte material cuando la ejecución ya ha
-comenzado con el consentimiento previo y expreso del consumidor, sabiendo que con ello pierde el
-derecho de desistimiento**.
+El art. 103 recoge las excepciones, y hay que separar dos casos:
+
+- **Software descargable (contenido digital sin soporte material), art. 103.m):** el derecho se pierde
+  cuando la ejecución ha comenzado y, si hay obligación de pago, se cumplen tres condiciones:
+  consentimiento previo para empezar durante el plazo, conocimiento de que con ello se pierde el
+  derecho, y confirmación conforme al art. 98.7 o al 99.2.
+- **Servicio digital, art. 103.a):** es un contrato de servicios (art. 59 bis.1.g). El derecho solo se
+  pierde cuando el servicio se ha **ejecutado por completo**, con consentimiento previo expreso y
+  sabiendo que se pierde.
 
 > ⚠️ **No cites esa letra de memoria ni la des por buena tal cual: el RDL 24/2021 modificó varias
 > letras del art. 103 y añadió requisitos.** Lee el texto consolidado del artículo antes de escribir
 > nada en un informe: <https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555#a103>
 
-Lo que **sí** se puede afirmar con seguridad porque es la consecuencia de diseño: esa excepción no
-funciona sola. Exige **una casilla específica, sin premarcar, en el momento de la compra**, donde el
-comprador consiente empezar ya y reconoce que pierde el desistimiento. Sin esa casilla, la descarga
-inmediata no elimina el derecho, y el producto tiene que devolver el dinero durante 14 días.
+Lo que **sí** se puede afirmar con seguridad: la excepción del contenido digital no funciona sola. La
+ley no habla de casillas, pero el empresario tiene que poder probar el consentimiento y el
+conocimiento, y la forma práctica es **una casilla específica, sin premarcar, en el momento de la
+compra**, donde el comprador consiente empezar ya y reconoce que pierde el desistimiento. Además hay
+que **enviarle la confirmación en soporte duradero** (art. 98.7.b). Si falta alguna de las tres
+condiciones, la descarga inmediata no elimina el derecho, y el producto tiene que devolver el dinero
+durante 14 días.
 
 **Hallazgo habitual:** una página de precios con "descarga inmediata, sin reembolsos". Eso, sin la
 casilla y sin la información previa, no se sostiene.
@@ -80,8 +103,8 @@ casilla y sin la información previa, no se sostiene.
 
 | Concepto | Plazo | Artículo |
 |---|---|---|
-| Responsabilidad del vendedor | **3 años** bienes, **2 años** contenidos o servicios digitales | 120.1 |
-| Presunción de que el defecto ya existía | 2 años bienes, 1 año digital | 121.1 |
+| Responsabilidad del vendedor | **3 años** bienes, **2 años** contenidos o servicios digitales en acto único o actos individuales; en **suministro continuo** (suscripciones), todo el periodo de suministro | 120.1 y 120.2 |
+| Presunción de que el defecto ya existía | 2 años bienes, 1 año digital en acto único o actos individuales; en **suministro continuo**, la carga de la prueba es del empresario durante todo el periodo | 121.1 y 121.2 |
 | Prescripción de la acción | **5 años** desde que se manifiesta | 124 |
 | Plazo para que el consumidor avise | **Ya no existe** (el antiguo de 2 meses se suprimió) | suprimido |
 
@@ -153,8 +176,9 @@ Tres avisos que van en el informe:
 
 - ⛔ **La plataforma europea de resolución de litigios en línea dejó de existir el 20 de julio de
   2025**, derogada por el Reglamento (UE) 2024/3228. El enlace `ec.europa.eu/consumers/odr` que
-  llevan casi todas las plantillas **está muerto** y ponerlo hoy es informar mal al consumidor. Si
-  aparece en el pie de una web o en unas condiciones, es un hallazgo.
+  llevan casi todas las plantillas **solo redirige ya a un aviso de cierre de la Comisión** y ponerlo
+  hoy es informar mal al consumidor. Si aparece en el pie de una web o en unas condiciones, es un
+  hallazgo.
 - ⛔ Las cifras de multas de la LSSI de 300.000 / 3.000.000 € (ver `web-y-datos-es.md`).
 - ✅ **Sigue vivo el deber de informar sobre resolución alternativa de litigios** (Ley 7/2017, art.
   40) si se está adherido a una entidad, o si por ley o código de conducta hay que aceptarla. Y en el

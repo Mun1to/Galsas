@@ -24,8 +24,9 @@ Obliga a dar acceso "por medios electrónicos, de forma permanente, fácil, dire
 (art. 38.3.b), de 30.001 a 150.000 €. El resto son **leves** (art. 38.4.b), hasta 30.000 €.
 
 > ⚠️ **Corrección de un bulo muy extendido:** las cifras de 300.000 y 3.000.000 € que citan
-> muchísimas guías vienen del **Real Decreto-ley 9/2024, que fue derogado** por acuerdo del Congreso
-> publicado el 23 de enero de 2025. Las cuantías vigentes son las del art. 39.1 LSSI: hasta 30.000
+> muchísimas guías **no están en el art. 39 LSSI**, ni tampoco en el Real Decreto-ley 9/2024, que
+> retocó ese artículo y fue derogado por acuerdo del Congreso publicado el 23 de enero de 2025. Las
+> cuantías vigentes son las del art. 39.1 LSSI: hasta 30.000
 > (leves), de 30.001 a 150.000 (graves) y de 150.001 a 600.000 € (muy graves). Si un informe repite las cifras
 > viejas, está copiado de internet, no leído.
 
@@ -107,8 +108,8 @@ Contenido (art. 30.1): responsable y contacto, DPD si lo hay, fines, categorías
 datos, categorías de destinatarios, transferencias internacionales y sus garantías, plazos de
 supresión y descripción general de las medidas de seguridad. Por escrito, vale electrónico.
 
-> El *Digital Omnibus* propone subir ese umbral a 750 empleados, pero **es una propuesta, no está en
-> vigor**. Hoy rige el 250.
+> El *Omnibus IV*, 2025/0130(COD), propuso subir ese umbral a 750 empleados y el texto acordado en
+> junio de 2026 lo deja en menos de 1.000, pero **todavía no es ley**. Hoy rige el 250.
 
 ## 5. Encargados de tratamiento: art. 28 RGPD
 

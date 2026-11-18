@@ -65,8 +65,8 @@ producto lo contamina exactamente igual que añadir la dependencia, y no aparece
 La norma sana: se guarda **el patrón y el enlace**, no el código. Vale también para el código que
 sugiere un asistente de IA cuando reproduce un fragmento reconocible de un proyecto con licencia.
 
-**4. Los assets no son código, y tienen su propio régimen.** Fuentes tipográficas (OFL suele exigir
-que la fuente derivada no se venda suelta), iconos, ilustraciones, **música de fondo de un vídeo**,
+**4. Los assets no son código, y tienen su propio régimen.** Fuentes tipográficas (la OFL prohíbe vender
+la fuente suelta, original o modificada), iconos, ilustraciones, **música de fondo de un vídeo**,
 fotografías de banco. Una pista musical mal licenciada en un vídeo de lanzamiento da más disgustos
 que cualquier dependencia, porque la reclamación llega automática desde la plataforma.
 

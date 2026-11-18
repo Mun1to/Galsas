@@ -28,7 +28,9 @@ entera, no.
 | Norma | Enlace |
 |---|---|
 | RGPD, Reglamento (UE) 2016/679 | <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679> |
-| AI Act, Reglamento (UE) 2024/1689 (consolidado) | <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689> |
+| AI Act, Reglamento (UE) 2024/1689 (consolidado) | <https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02024R1689-20260727> |
+| Digital Omnibus sobre IA, Reglamento (UE) 2026/1744 | <https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng> |
+| Botón de desistimiento, Directiva (UE) 2023/2673 | <https://www.boe.es/buscar/doc.php?id=DOUE-L-2023-81696> |
 | Artículo 50, ficha de la Comisión | <https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50> |
 | Preguntas frecuentes oficiales del art. 50 | <https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act> |
 | Directrices sobre transparencia | <https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations> |
@@ -57,7 +59,7 @@ enlace**: aquí no se resume el contenido de lo que no se ha leído entero.
 | Dónde | Estado | Desde | Texto oficial |
 |---|:---:|---|---|
 | 🇪🇺 Unión Europea | 🟢 En vigor | Transparencia, 2 ago 2026 | [Art. 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50) |
-| 🇪🇸 España | 🟡 Proyecto en el Congreso | Consejo de Ministros, 26 may 2026 | [La Moncloa](https://www.lamoncloa.gob.es/) |
+| 🇪🇸 España | 🟡 Proyecto caducado | El 121/000096 caducó al disolverse las Cortes, 6 oct 2026 | [BOCG D-610](https://www.congreso.es/public_oficiales/L15/CONG/BOCG/D/BOCG-15-D-610.PDF) · [RD 806/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20742) |
 | 🇺🇸 EEUU federal | 🟡 Sin ley. Orden ejecutiva 14365 | 11 dic 2025 | [Registro Federal](https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence) |
 | 🇺🇸 California | 🟢 En vigor | SB 243, chatbots de compañía | [SB 243](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243) |
 | 🇺🇸 Texas | 🟢 En vigor | 1 ene 2026 | [HB 149](https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm) |
@@ -65,13 +67,15 @@ enlace**: aquí no se resume el contenido de lo que no se ha leído entero.
 | 🇨🇳 China | 🟢 En vigor | Etiquetado, 1 sep 2025 | [Medidas, CAC](https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm) |
 | 🇰🇷 Corea del Sur | 🟢 En vigor | 22 ene 2026 | [Ley Marco](https://www.law.go.kr/lsInfoP.do?lsiSeq=268543) |
 | 🇮🇳 India | 🟢 En vigor | Notificada 10 feb 2026 | [MeitY](https://www.meity.gov.in/) |
-| 🇧🇷 Brasil | 🟡 En comisión | Pasó el Senado en mar 2025 | [PL 2338/2023](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233) |
+| 🇧🇷 Brasil | 🟡 En comisión | Aprobado por el Senado el 10 dic 2024; en la Cámara desde el 17 mar 2025 | [PL 2338/2023](https://www25.senado.leg.br/web/atividade/materias/-/materia/157233) |
 | 🇨🇱 Chile | 🟡 En tramitación | Iniciado 7 may 2024 | [Boletín 16821-19](https://tramitacion.senado.cl/) |
 | 🇬🇧 🇯🇵 🇨🇦 🇦🇺 | ⚪ Sin ley horizontal de IA | | Sin verificar en fuente oficial |
 
 **Calendario europeo:** prácticas prohibidas y alfabetización en IA desde el 2 feb 2025; modelos de
 propósito general desde el 2 ago 2025; **transparencia desde el 2 ago 2026**; el Digital Omnibus
-entró en vigor el 27 jul 2026 y retrasó el alto riesgo (2 dic 2027 y 2 ago 2028).
+entró en vigor el 27 jul 2026 y retrasó el alto riesgo (2 dic 2027 y 2 ago 2028). **Desde el 2 dic
+2026** se aplican las prohibiciones nuevas del art. 5.1 b bis) y b ter) (contenido íntimo no
+consentido y material de abuso sexual infantil) y termina la gracia del art. 50.2 (art. 111.4).
 
 De China, Corea e India está verificada **la existencia y la fecha**, no el contenido. Si el producto
 va a esos mercados, eso es exactamente lo que se escribe en la sección "no verificado" del informe.
